@@ -2,7 +2,7 @@ from sympy import gcd
 
 def main():
     def kleinsterTerm(frac): #[a,b] = a/b
-        zaehler = frac[0]
+        zaehler = frac[0] #get first element
         nenner = frac[1]
         ggT = (zaehler, nenner) #get ggT
         return [zaehler // ggT, nenner /ggT]
