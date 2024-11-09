@@ -8,5 +8,5 @@ def main():
                 return False
         return True
     
-    print(isPrime(4))
+    print(isPrime(2))
 main()
