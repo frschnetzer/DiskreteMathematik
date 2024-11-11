@@ -10,5 +10,5 @@ def main():
             list.append(a)
             n -= 1
         return list
-    print(getRational(1,5,6))
+    print(getRational(7.9,8,10))
 main()
