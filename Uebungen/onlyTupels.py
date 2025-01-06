@@ -19,5 +19,5 @@ def main():
         return (all(map(lambda x: type(x) is tuple, s)))
     
     print(onlyTupels([(1,2), (2,4), (23,9)])) # True
-    print(onlyTupels([(1,2), (2,4), (23,9)], 1)) # False, weil letztes kein tupel
+    print(onlyTupels([(1,2), (2,4), (23,9),1])) # False, weil letztes kein tupel
 main()

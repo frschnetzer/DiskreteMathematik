@@ -1,0 +1,34 @@
+Menge A mit n Elementen
+n = 0
+2^0 = 0
+2^1 = 1
+2^2 = 4
+2^3 = 8
+2^4 = 16
+.
+.
+.
+2^n
+
+Behauptung |A| = n => |P(A)| = 2^n
+Falls A 0 Elemente hat A = 0 gibt es eine Teilmenge nämlich 0 => |P(A)| = 1 = 2^0
+A hat 1 Element A = {1}
+	Teilmenge 0, {1} ?> P(a= = {0, {1}} => |P(A=| = 2 = 2^1
+2 Elemente A = {1,2}
+	P(A) = {0, {1},{2},{1,2}} => P(A) = 4 = 2^2
+3 Elemente P(A) = {0, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} => P(A) = 8 = 2^3
+4 Elemente P(A) = {1,2,3,4}
+	Es gibt 1 0-Elementige Teilmenge
+	Es gibt 4 1-Elementige Teilmenge
+	Es gibt (4*3)*1/2= 6  2-Elementige Teilmenge
+	Es gibt 4 3-Elementige Teilmenge
+	Es gibt 1 4-Elementige Teilmenge
+
+
+|N| (natürlichen Zahlen) = unendlich
+{n E N| so gilt m E N : m^2= n}|= unendlich
+
+Überprüfen ob zwei unendliche mengen gleich groß sind
+N = {0,1,2,3,...}
+M = {0,1,2,3,...}
+abziehen bis leere menge 
