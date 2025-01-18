@@ -23,3 +23,4 @@ def optimized_ggT(a, b):
                 return b
 
 print(optimized_ggT(225, 400))
+print(ggT(233,144))
